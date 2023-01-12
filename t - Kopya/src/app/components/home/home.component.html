@@ -1,0 +1,33 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="alert alert-info" *ngIf="!servis.OturumKontrol()">Lütfen oturum Açınız</div>
+    </div>
+  </div>
+</div>
+<img src="assets/resim1.png" alt="" height="200" width="200">
+<div class="form-group">
+  <label for="exampleFormControlSelect2 m-2"><h4>Öğrenci Seç</h4></label>
+  <select multiple class="form-control" id="exampleFormControlSelect2">
+    <option>birhat@mail.com</option>
+    <option>aysu@mail.com</option>
+    <option>cemre@mail.com</option>
+    <option>nafiz@mail.com</option>
+    
+    
+  </select>
+  <button class="btn btn-warning m-2">Ekle</button>
+  <button class="btn btn-secondary">Hepsini Seç</button>
+  
+  <div class="form-group">
+    <label for="exampleFormControlSelect2"> <h4>Ödev Seç</h4></label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>integral</option>
+      <option>Gauss problemi</option>
+      <option>limit</option>
+      <option>Atatürk ilke ve inkilapları</option>
+      
+      
+    </select>
+    <button class="btn btn-warning m-2">Ekle</button>
+    <button class="btn btn-secondary">Gönder</button>
